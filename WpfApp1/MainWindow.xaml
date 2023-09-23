@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid RenderTransformOrigin="0.534,0.514">
-        <Button Content="Button" HorizontalAlignment="Left" Height="23" Margin="83,66,0,0" VerticalAlignment="Top" Width="71"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="46" Margin="83,132,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button x:Name="calbtn" Content="計算!" HorizontalAlignment="Left" Height="23" Margin="83,97,0,0" VerticalAlignment="Top" Width="71"/>
+        <Label HorizontalAlignment="Left" Height="46" Margin="83,297,0,0" VerticalAlignment="Top" Width="140"/>
+        <TextBlock x:Name="res" HorizontalAlignment="Left" Margin="340,112,0,0" TextWrapping="Wrap" Text="過去計算的結果" VerticalAlignment="Top" Height="231" Width="262"/>
+        <Label x:Name="showlabel" Content="計算結果" HorizontalAlignment="Left" Margin="83,280,0,0" VerticalAlignment="Top" Width="159" Height="62"/>
+        <TextBox x:Name="tr1" HorizontalAlignment="Left" Margin="83,49,0,0" TextWrapping="Wrap" Text="請輸入邊長" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tr2" HorizontalAlignment="Left" Margin="280,49,0,0" TextWrapping="Wrap" Text="請輸入邊長" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tr3" HorizontalAlignment="Left" Margin="495,49,0,0" TextWrapping="Wrap" Text="請輸入邊長" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
